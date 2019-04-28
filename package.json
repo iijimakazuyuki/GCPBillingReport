@@ -1,0 +1,22 @@
+{
+  "name": "gcp-billing-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iijimakazuyuki/GCPBillingReport.git"
+  },
+  "author": "Kazuyuki Iijima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iijimakazuyuki/GCPBillingReport/issues"
+  },
+  "homepage": "https://github.com/iijimakazuyuki/GCPBillingReport#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^3.0.0"
+  }
+}
