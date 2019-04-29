@@ -18,5 +18,8 @@
   "homepage": "https://github.com/iijimakazuyuki/GCPBillingReport#readme",
   "dependencies": {
     "@google-cloud/bigquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
   }
 }
