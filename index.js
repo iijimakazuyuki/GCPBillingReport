@@ -12,3 +12,5 @@ function main() {
 
     billingReporter.query();
 }
+
+module.exports.main = main;
