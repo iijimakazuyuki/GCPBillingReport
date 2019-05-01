@@ -1,7 +1,7 @@
 const https = require('https');
 const { URL } = require('url');
 
-class SlacWebhooker {
+class SlackWebhooker {
     constructor(webhookUrl) {
         this.webhookUrl = new URL(webhookUrl);
     }
@@ -34,4 +34,4 @@ class SlacWebhooker {
     }
 }
 
-module.exports = SlacWebhooker;
+module.exports = SlackWebhooker;
